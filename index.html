@@ -478,6 +478,12 @@
       </div>
     </div>
   </footer>
+  <script>
+  if (typeof navigator.serviceWorker !== 'undefined') {
+    navigator.serviceWorker.register('script/service-worker.js')
+  }
+  </script>
+  
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
@@ -496,6 +502,7 @@ if (!hasVisitedCheckPage) {
     window.location.href = 'login.html';
 }
 localStorage.setItem('visitedCheckPage', 'true');
+  
 </script>
 <script src="script/script.js"></script>
 <script src="script/voice.js"></script>

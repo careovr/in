@@ -3,7 +3,7 @@
   "short_name": "Careovr",
   "description": "An Identity of healthy India.",
   "start_url": "https://careovr.github.io/in",
-  "display": "standalone",
+  "display": "fullscreen",
   "background_color": "#F8F9FA",
   "theme_color": "#F8F9FA",
   "icons": [
@@ -60,15 +60,27 @@
       "type": "image/png"
     }
   ],
-  "display_override": ["standalone", "fullscreen", "window-controls-overlay"],
-  "categories": ["health", "fitness", "medical", "lifestyle"],
-    "dir": "ltr",
+  "display_override": [
+    "standalone",
+    "fullscreen",
+    "window-controls-overlay"
+  ],
+  "categories": [
+    "health",
+    "fitness",
+    "medical",
+    "lifestyle"
+  ],
+  "dir": "ltr",
   "lang": "en",
   "scope": "/",
   "launch_handler": {},
   "handle_links": {
     "scope": "/",
-    "urls": ["/", "/index.html"]
+    "urls": [
+      "/",
+      "/index.html"
+    ]
   },
   "protocol_handlers": [
     {
@@ -83,7 +95,13 @@
     "params": {
       "title": "name",
       "text": "description",
-      "url": "link"
+      "url": "link",
+      "files": [
+        {
+          "name": "",
+          "accept": []
+        }
+      ]
     }
   },
   "background_sync": true,
@@ -99,8 +117,12 @@
     {
       "action": "/open-report",
       "accept": {
-        "application/pdf": [".pdf"],
-        "text/csv": [".csv"]
+        "application/pdf": [
+          ".pdf"
+        ],
+        "text/csv": [
+          ".csv"
+        ]
       }
     }
   ],
@@ -108,22 +130,42 @@
     {
       "name": "Book Ambulance",
       "url": "https://careovr.github.io/in/ambulance.html",
-      "icons": [{ "src": "img/logo.png", "sizes": "96x96" }]
+      "icons": [
+        {
+          "src": "img/logo.png",
+          "sizes": "96x96"
+        }
+      ]
     },
     {
       "name": "Blood Donors",
       "url": "https://careovr.github.io/in/blood-doners.html",
-      "icons": [{ "src": "img/logo.png", "sizes": "96x96" }]
+      "icons": [
+        {
+          "src": "img/logo.png",
+          "sizes": "96x96"
+        }
+      ]
     },
     {
       "name": "Doctors",
       "url": "https://careovr.github.io/in/doctors.html",
-      "icons": [{ "src": "img/logo.png", "sizes": "96x96" }]
+      "icons": [
+        {
+          "src": "img/logo.png",
+          "sizes": "96x96"
+        }
+      ]
     },
     {
       "name": "Hospitals",
       "url": "https://careovr.github.io/in/hospitals.html",
-      "icons": [{ "src": "img/logo.png", "sizes": "96x96" }]
+      "icons": [
+        {
+          "src": "img/logo.png",
+          "sizes": "96x96"
+        }
+      ]
     }
   ],
   "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7",

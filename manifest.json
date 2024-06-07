@@ -3,7 +3,7 @@
   "short_name": "Careovr",
   "description": "An Identity of healthy India.",
   "start_url": "https://careovr.github.io/in",
-  "display": "fullscreen",
+  "display": "standalone",
   "background_color": "#F8F9FA",
   "theme_color": "#F8F9FA",
   "icons": [

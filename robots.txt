@@ -1,7 +1,0 @@
-User-agent: *
-Disallow: /login.html
-Disallow: /privacy-policy.html
-Disallow: /Refund-Policy.html
-Disallow: /terms-and-conditions.html
-
-Sitemap: https://careovr.github.io/sitemap.xml

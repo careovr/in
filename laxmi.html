@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Happy Birthday Card</title>
+    <title>Happy Birthday Laxmi</title>
     <!-- Google Font-->
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
@@ -31,5 +31,13 @@
         <h1>&#127873;</h1>
       </div>
     </div>
+    <script>
+const hasVisitedCheckPage = localStorage.getItem('visitedCheckPage');
+if (!hasVisitedCheckPage) {
+    window.location.href = 'login.html';
+}
+localStorage.setItem('visitedCheckPage', 'true');
+  
+</script>
   </body>
 </html>

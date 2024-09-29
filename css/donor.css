@@ -1,0 +1,112 @@
+body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+        
+        .card {
+            border: none;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            overflow: hidden;
+            background-color: #ffffff;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(108, 92, 231, 0.1);
+        }
+        .card-header {
+            background-color: #a29bfe;
+            color: white;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 15px;
+            border-bottom: none;
+        }
+        .btn-primary {
+            background-color: #6c5ce7;
+            border: none;
+            border-radius: 50px;
+            padding: 12px 30px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(108, 92, 231, 0.3);
+        }
+        .btn-primary:hover {
+            background-color: #5b4cdb;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(108, 92, 231, 0.4);
+        }
+        .btn-danger {
+            background-color: #ff7675;
+            border: none;
+            border-radius: 50px;
+            padding: 12px 30px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(255, 118, 117, 0.3);
+        }
+        .btn-danger:hover {
+            background-color: #ff6b6b;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(255, 118, 117, 0.4);
+        }
+        .form-control, .form-select {
+            border-radius: 50px;
+            padding: 12px 20px;
+            border: 2px solid #e0e0e0;
+            transition: all 0.3s ease;
+            background-color: #f8f9fa;
+        }
+        .form-control:focus, .form-select:focus {
+            border-color: #6c5ce7;
+            box-shadow: 0 0 0 0.2rem rgba(108, 92, 231, 0.25);
+        }
+        .modal-content {
+            border-radius: 20px;
+            border: none;
+            overflow: hidden;
+        }
+        .modal-header {
+            background-color: #6c5ce7;
+            color: white;
+            border-bottom: none;
+            padding: 20px 30px;
+        }
+        .modal-body {
+            padding: 30px;
+        }
+        .modal-title {
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        #donorResults .card {
+            margin-bottom: 20px;
+        }
+        #donorResults .card-body {
+            padding: 20px;
+        }
+        .donor-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .donor-info i {
+            font-size: 1.2rem;
+            margin-right: 10px;
+            color: #6c5ce7;
+        }
+        .location-icon {
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #6c5ce7;
+            cursor: pointer;
+        }
+        .form-group {
+            position: relative;
+            margin-bottom: 20px;
+        }

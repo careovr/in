@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BMR Calculator | Calculate Your Basal Metabolic Rate on Careovr</title>
+<meta name="description" content="Use Careovr's BMR Calculator to easily determine your Basal Metabolic Rate (BMR) and understand how many calories your body needs daily to function at rest. Get personalized health advice based on your results.">
+<meta name="keywords" content="BMR calculator, Basal Metabolic Rate, health calculator, calorie calculator, calculate BMR, daily calorie needs, metabolism, fitness calculator, health insights, weight management">
+<meta name="author" content="Zoftics Co.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://careovr.netlify.app/bmr-calculator">
+
+<meta property="og:title" content="BMR Calculator | Calculate Your Basal Metabolic Rate on Careovr">
+<meta property="og:description" content="Discover how many calories your body burns at rest using Careovr's BMR Calculator. Get personalized insights on your calorie needs for maintaining, losing, or gaining weight.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://careovr.netlify.app/bmr-calculator">
+<meta property="og:image" content="img/blogs/bmr-calculator.webp">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="BMR Calculator | Calculate Your Basal Metabolic Rate on Careovr">
+<meta name="twitter:description" content="Easily calculate your BMR with Careovr. Understand how many calories your body needs each day based on your Basal Metabolic Rate and make informed health decisions.">
+<meta name="twitter:image" content="img/blogs/bmr-calculator.webp">
+<meta name="twitter:url" content="https://careovr.netlify.app/bmr-calculator">
+
+<link rel="icon" type="image/png" sizes="32x32" href="https://careovr.netlify.app/img/logo.png">
+
+    <!-- CSS stylesheets --> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/scss.css">
+    <link rel="stylesheet" href="css/newui.css">
+    <link rel="stylesheet" href="css/ui.css">
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="aliceblue">
+    <!-- Js --> 
+    <script src="https://kit.fontawesome.com/02c149104d.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.lordicon.com/lordicon-1.2.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+
+
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NBK54234');</script>
+    <!-- End Google Tag Manager -->
+     <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C8NC3FCN76"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C8NC3FCN76');
+</script>
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <button class="menu-btn"><i class="fa-solid fa-bars"></i></button>
+            <div class="logo">Careovr</div>
+        </div>
+        <div class="navbar-right">
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="blogs.html">Blogs</a>
+            </div>
+            <button class="emergency-btn"><i class="fas fa-ambulance"></i></button>
+            <img src="img/ico/account-avatar-profile-user-svgrepo-com.svg" alt="Profile" class="profile-pic">
+        </div>
+    </nav>
+
+    <div class="side-navbar">
+        <ul>
+            <h2 class="section-name ine-name">Careovr</h2>
+        <button class="close-btn"><i class="fa-solid fa-xmark"></i></button>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+
+        </ul>
+    </div>
+
+    <div class="emergency-menu">
+        <a class="none-link" href="ambulance.html"><button class="menu-button" id="book-ambulance"><i class="fas fa-ambulance"></i>Book Ambulance</button></a>
+        <a class="none-link" href="tel:+919234775045"><button class="menu-button" id="call-emergency"><i class="fas fa-phone-alt"></i>Call Emergency</button></a>
+        <a class="none-link" href="blood-finder.html"><button class="menu-button" id="find-blood-donor"><i class="fas fa-tint"></i>Find Blood Donor</button></a>
+    </div>
+
+    <div class="profile-menu">
+        <a href="reminders.html" class="none-link"><button class="menu-button" id="reminders"><i class="fas fa-bell"></i>Reminders</button></a>
+        <a href="request-prescription.html" class="none-link"><button class="menu-button" id="request-rx"><i class="fas fa-prescription-bottle-alt"></i>Request Rx</button></a>
+        <a href="https://wa.me/919234775045?text=My%20Upcoming%20Appointments" class="none-link"><button class="menu-button" id="appointments"><i class="fas fa-calendar-check"></i>Appointments</button></a>
+    </div>
+
+    <!-- Mobile Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <a href="index.html" class="none-link"><button class="footer-button">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </button></a>
+            <a href="https://gostore.app/berrybone" class="none-link"><button class="footer-button">
+                <i class="fas fa-store"></i>
+                <span>Store</span>
+            </button></a>
+            
+            <a href="blogs.html" class="none-link"><button class="footer-button">
+                <i class="fas fa-blog"></i>
+                <span>Blogs</span>
+            </button></a>
+            <a href="https://www.chatbase.co/chatbot-iframe/PgxNyy5vQs2kT2xN7O7A9" class="none-link"><button class="footer-button">
+                <i class="fas fa-robot"></i>
+                <span>AI</span>
+            </button></a>
+        </div>
+    </footer>
+    <script
+        src="https://www.chatbase.co/embed.min.js"
+        chatbotId="PgxNyy5vQs2kT2xN7O7A9"
+        domain="www.chatbase.co"
+        defer>
+        </script>
+    <div id="loading-overlay" class="active">
+        <div class="loader">
+            <lord-icon
+      src="https://cdn.lordicon.com/drtyjchi.json"
+      trigger="loop"
+      style="height: 250px;width: 250px;"
+      colors="primary:#001F3F,secondary:#ffd700"
+         >
+  </lord-icon>
+        </div>    
+    </div>
+    
+    <style>
+        body{
+            background-color: #fefefe;
+        }
+        .result-container {
+            display: none;
+            margin-top: 20px;
+        }
+    </style>
+    <div class="container mt-5">
+        <div class="calculator-container">
+            <h1 class="section-name text-center">Comprehensive BMR Calculator</h1>
+
+            
+            <section id="introduction" class="mb-4">
+                <h2>What is BMR?</h2>
+                <p>Basal Metabolic Rate (BMR) is the number of calories your body burns while at rest. It represents the minimum amount of energy needed to keep your body functioning, including breathing and keeping your heart beating.</p>
+                <p><strong>BMR Formula (Harris-Benedict Equation):</strong></p>
+                <ul>
+                    <li>For men: BMR = 88.362 + (13.397 × weight in kg) + (4.799 × height in cm) - (5.677 × age in years)</li>
+                    <li>For women: BMR = 447.593 + (9.247 × weight in kg) + (3.098 × height in cm) - (4.330 × age in years)</li>
+                </ul>
+                <p>Knowing your BMR helps in setting realistic fitness, diet, or weight management goals by providing a baseline for your daily caloric needs.</p>
+            </section>
+
+            <form id="bmr-form">
+                <div class="mb-3">
+                    <label class="form-label">Gender</label>
+                    <div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="male" value="male" required>
+                            <label class="form-check-label" for="male">Male</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="female" value="female" required>
+                            <label class="form-check-label" for="female">Female</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="age" class="form-label">Age</label>
+                    <input type="number" class="form-control" id="age" required>
+                </div>
+                <div class="mb-3">
+                    <label for="weight" class="form-label">Weight</label>
+                    <div class="input-group">
+                        <input type="number" class="form-control" id="weight" required>
+                        <select class="form-select" id="weight-unit">
+                            <option value="kg">kg</option>
+                            <option value="lbs">lbs</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="height" class="form-label">Height</label>
+                    <div class="input-group">
+                        <input type="number" class="form-control" id="height" required>
+                        <select class="form-select" id="height-unit">
+                            <option value="cm">cm</option>
+                            <option value="ft">ft</option>
+                        </select>
+                        <input type="number" class="form-control" id="inches" placeholder="inches" style="display:none;">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="activity-level" class="form-label">Activity Level</label>
+                    <select class="form-select" id="activity-level" required>
+                        <option value="1.2">Sedentary (little or no exercise)</option>
+                        <option value="1.375">Lightly Active (light exercise/sports 1-3 days/week)</option>
+                        <option value="1.55">Moderately Active (moderate exercise/sports 3-5 days/week)</option>
+                        <option value="1.725">Very Active (hard exercise/sports 6-7 days a week)</option>
+                        <option value="1.9">Super Active (very hard exercise or physical job, training twice a day)</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Calculate BMR</button>
+            </form>
+
+            <div id="result" class="result-container">
+                <h2 class="text-center mb-3">Your Results</h2>
+                <p id="bmr-value" class="text-center fs-4"></p>
+                <h3>Daily Caloric Needs</h3>
+                <ul id="caloric-needs"></ul>
+                <div class="d-grid gap-2 mt-4">
+                    <button class="btn btn-success" onclick="prepareHealthPlan()">Prepare Your Own Health Plan</button>
+                    <button class="btn btn-info" onclick="consultDoctor()">Consult With a Doctor</button>
+                </div>
+                <div id="health-insights" class="mt-4">
+                    <h3>What This Means</h3>
+                    <p id="bmr-explanation"></p>
+                    <h4>Diet and Exercise Tips</h4>
+                    <ul id="diet-exercise-tips"></ul>
+                </div>
+            </div>
+
+            <section id="educational-section" class="mt-4">
+                <h3>BMR vs TDEE</h3>
+                <p>While BMR represents the calories your body burns at rest, Total Daily Energy Expenditure (TDEE) includes the calories burned through daily activities and exercise. Your actual daily caloric needs are based on your TDEE, which we calculate using your activity level.</p>
+            </section>
+        </div>
+    </div>
+    
+
+      <div class="banner-slider" id="slider1">
+        <div class="banner-container">
+            <div class="banner-slide">
+                <img class="promotional" src="img/banner/promo/axiscard.png" alt="Banner 1">
+            </div>
+            <div class="banner-slide">
+                <img class="promotional" src="img/banner/promo/idfccard.png" alt="Banner 2">
+            </div>
+            <div class="banner-slide">
+                <img class="promotional" src="img/banner/promo/sbicard.png" alt="Banner 3">
+            </div>
+        </div>
+        <div class="banner-controls">
+             <button class="banner-control" id="prevBtn">&lt;</button>
+        <button class="banner-control" id="nextBtn">&gt;</button>
+        </div>
+    </div>
+    <footer class="careovr-footer">
+        <div class="careovr-footer-content">
+            <div class="careovr-footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blogs.html">Blogs</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="careovr-footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="pathlabs.html">Lab Tests</a></li>
+                    <li><a href="blood-finder.html">Blood Donors</a></li>
+                    <li><a href="doctors.html">Doctor Appointment</a></li>
+                    <li><a href="hospitals.html">Hospital Appointment</a></li>
+                </ul>
+            </div>
+            <div class="careovr-footer-section">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="contributors.html">Contributors</a></li>
+                    <li><a href="FAQ.html">FAQ</a></li>
+                    
+
+                </ul>
+            </div>
+            <div class="careovr-footer-section">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="Refund-Policy.html">Refund Policy</a></li>
+                    <li><a href="Patient-rights-and-responsibility.html">Patient Rights and Responsibility</a></li>
+                </ul>
+            </div>
+            <div class="careovr-footer-section">
+                <h3>Connect With Us</h3>
+                <div class="careovr-social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=61562409388871"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com/Expertkmishra"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com/offi_careovr"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/careovr-healthcare/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://youtube.com/@berrybone?sub_confirmation=1"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="careovr-footer-bottom">
+            <p>&copy; 2024 Careovr. All rights reserved.</p>
+            <p>Estd. 15 July 2024</p>
+            <p>Made with <span class="careovr-heart"><i class="fa-solid fa-heart"></i></span> by Keshav Mishra and Zoftics Co.</p>
+            <img class="footer-title" src="img/cleanfooter.png" alt="" >
+
+        </div>
+    </footer>
+    <script src="script/load.js"></script>
+    <script src="script/newscript.js"></script>
+    <script src="script/service-worker.js"></script>
+    <script src="script/bmr.js"></script>
+
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NBK54234"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+</body>
+</html>

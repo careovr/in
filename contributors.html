@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careovr Contributors | Meet the People Behind Our Health Platform</title>
+    <meta name="description" content="Discover the contributors who played a pivotal role in building Careovr. From developers to healthcare experts, learn about the people dedicated to making healthcare accessible.">
+    <meta name="keywords" content="Careovr contributors, platform builders, healthcare contributors, development team, healthcare experts, platform creators, health technology contributors">
+    <meta name="author" content="Zoftics CO.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://careovr.netlify.app/contributors">
+        <meta property="og:title" content="Careovr Contributors | Meet the People Behind Our Health Platform">
+    <meta property="og:description" content="Careovr recognizes the talented individuals who have contributed to building our platform. Get to know the people behind the innovation.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://careovr.netlify.app/contributors">
+    <meta property="og:image" content="img/blogs/contributors.webp">
+        <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Careovr Contributors | Recognizing the Team Behind Our Health Platform">
+    <meta name="twitter:description" content="Meet the contributors who helped bring Careovr to life. From healthcare professionals to developers, learn about their roles in shaping the platform.">
+    <meta name="twitter:image" content="img/blogs/contributors.webp">
+    <meta name="twitter:url" content="https://careovr.netlify.app/contributors">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://careovr.netlify.app/img/logo.png">
+        <script src="https://kit.fontawesome.com/02c149104d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NBK54234');</script>
+    <!-- End Google Tag Manager -->
+     <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C8NC3FCN76"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C8NC3FCN76');
+</script>
+
+</head>
+<body>
+    <style>
+        :root {
+    --primary-color: #00ffff;
+    --secondary-color: #ff00ff;
+    --background-color: #000033;
+    --card-color: rgba(255, 255, 255, 0.1);
+    --text-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    background-image: 
+        radial-gradient(circle at 10% 20%, rgba(0, 255, 255, 0.1) 0%, transparent 20%),
+        radial-gradient(circle at 90% 80%, rgba(255, 0, 255, 0.1) 0%, transparent 20%);
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 2rem;
+}
+
+.title {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    text-shadow: 0 0 10px var(--primary-color),
+                 0 0 20px var(--primary-color),
+                 0 0 30px var(--primary-color);
+}
+
+.contributors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.contributor-card {
+    perspective: 1000px;
+    height: 400px;
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.contributor-card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 15px;
+    overflow: hidden;
+    background: var(--card-color);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3),
+                0 0 40px rgba(255, 0, 255, 0.3);
+}
+
+.card-front {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-back {
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.contributor-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.contributor-name {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+.contributor-role {
+    font-size: 1rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.contributor-bio {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+
+.contributor-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: var(--secondary-color);
+    box-shadow: 0 0 10px var(--secondary-color);
+    color: #fefefe;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .contributors-grid {
+        grid-template-columns: 1fr;
+    }
+}
+    </style>
+    <div class="container">
+        <h1 class="title">Our Contributors & Innovators</h1>
+        <div class="contributors-grid">
+            
+            <div class="contributor-card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="img/ico/CEO.png" alt="Keshav Mishra CEO & Founder at Careovr" class="contributor-image">
+                        <h2 class="contributor-name">Keshav Mishra</h2>
+                        <p class="contributor-role">Founder & CEO</p>
+                    </div>
+                    <div class="card-back">
+                        <p class="contributor-bio">Developing the Platform and Serving the fastest Service to Users.</p>
+                        <div class="contributor-links">
+                            <a href="https://instagram.com/eclips_horizon" class="btn"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.youtube.com/@MusicalHaze" class="btn"><i class="fa fa-youtube"></i></a>
+                            <a href="https://www.linkedin.com/in/keshav-mishra-3a0a7a30b/" class="btn"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contributor-card">
+              <div class="card-inner">
+                  <div class="card-front">
+                      <img src="img/ico/CEO.png" alt="Keshav Mishra CEO & Founder at Careovr" class="contributor-image">
+                      <h2 class="contributor-name">Keshav Mishra</h2>
+                      <p class="contributor-role">Founder & CEO</p>
+                  </div>
+                  <div class="card-back">
+                      <p class="contributor-bio">Developing the Platform and Serving the fastest Service to Users.</p>
+                      <div class="contributor-links">
+                          <a href="#" class="btn"><i class="fa fa-instagram"></i></a>
+                          <a href="#" class="btn"><i class="fa fa-youtube"></i></a>
+                          <a href="#" class="btn"><i class="fa fa-linkedin"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NBK54234"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+</body>
+</html>

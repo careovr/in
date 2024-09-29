@@ -1,0 +1,176 @@
+.none-link{
+    text-decoration: none;
+}
+.card-pro{
+    margin-top: 5px;
+padding: 3px;       }
+.closx{
+    margin-top: 5px;
+}
+.verified{
+    width: 14px;
+    height: 14px;
+  }
+  img.success {
+    height: 180px;
+    width: 180px;
+}
+.section-title {
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.section-name {
+    font-weight: bolder;
+    color: #900000;
+    font-size: 24px;
+}
+
+.section-info {
+    font-weight: lighter;
+}
+.progress {
+    height: 30px;
+  }
+  .daily-task{
+    background-color: #fefffe;
+    border-radius: 20px;
+padding: 10px;
+margin-top: 5px;
+}
+
+ .banner-slider {
+    position: relative;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.banner-container {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.banner-slide {
+    flex: 0 0 100%;
+}
+.banner-slide .main-banner {
+    width: 100%;
+    height: auto;
+    border-radius: 0px 0px 20px 20px;
+
+}
+.promotional{
+    max-height: 450px;
+    width: 100%;
+}
+.banner-controls {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+.banner-controls button {
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.banner-controls {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+width: 100%;
+display: flex;
+justify-content: space-between;
+padding: 0 20px;
+}
+.banner-control {
+background-color: rgba(255, 255, 255, 0.5);
+border: none;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+font-size: 20px;
+cursor: pointer;
+}
+/* Code for Banner Slider END*/
+  /* Code for the Slider Button  */
+ .featured-section {
+    background-color: #FEFEFFff;
+    padding: 15px 10px;
+    border-radius: 20px;
+}
+
+.slider-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.slider-row {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 8px;
+}
+.btn-link{
+    text-decoration: none;
+    text-align: center;
+}
+.blog-btn{
+    background-color: #140B5C;
+    color: #fefffe;
+    border-radius: 20px;
+
+}
+.blog-btn:hover{
+    background-color: #800000;
+    color: #ffd700;
+}
+.featured-button {
+    flex: 0 0 auto;
+    width: 80px;
+    height: 80px;
+    margin-right: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fefffe;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    padding: 5px;
+}
+.featured-button:hover {
+    background-color: var(--light-cyan);
+}
+.featured-button img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 4px;
+}
+.featured-button span {
+    font-size: 10px;
+    color: #333;
+    text-align: center;
+    line-height: 1.2;
+}
+.slider-container::-webkit-scrollbar {
+    display: none;
+}
+@media (min-width: 768px) {
+    .slider-container {
+        overflow-x: visible;
+    }
+    .slider-row {
+        flex-wrap: wrap;
+    }
+    .featured-button {
+        margin-bottom: 8px;
+    }
+}
+.float-end{
+    font-size: small;
+    color: var(--royal-blue);
+}
+/* Code for the Slider Button Ended */

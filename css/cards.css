@@ -1,0 +1,138 @@
+/* Code for Sliding Cards */
+.section-cards{
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #fbfbfa;
+  }
+
+  .card-slider {
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+  }
+  .card-slider::-webkit-scrollbar {
+      display: none;
+  }
+  .card-slider-inner {
+      display: flex;
+      padding: 1rem;
+  }
+  .card {
+      flex: 0 0 auto;
+      width: 280px;
+      margin-right: 1rem;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      scroll-snap-align: start;
+      overflow: hidden;
+  }
+  .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  }
+  .card-body {
+      padding: 1.5rem;
+  }
+  .card-title {
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      font-size: 1.1rem;
+  }
+  .card-text {
+      color: #6c757d;
+      font-size: 0.9rem;
+  }
+  .doctor-image {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin: 0 auto 1rem;
+      background-color: #e9ecef;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+  }
+  .doctor-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+  .rating {
+      color: #ffc107;
+      font-size: 1.2rem;
+  }
+  .location {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 0.5rem;
+  }
+  .location svg {
+      width: 16px;
+      height: 16px;
+      margin-right: 0.25rem;
+  }
+  .card-img-top {
+      height: auto;
+      width: 100%;
+      object-fit: cover;
+  }
+  .video-duration {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+  }
+  .health-tip-icon {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      color: #4169E1;
+  }
+  @media (min-width: 768px) {
+      .card-slider-inner {
+          overflow-x: visible;
+      }
+  }
+/* Code for Sliding Cards End*/
+/* Code for Subscription/Refer/Call Section  */
+.membership-section {
+    font-family: 'Arial', sans-serif;
+  }
+  .membership-section h2 {
+    font-size: 1.25rem;
+    color: #333;
+  }
+  .membership-sectio li {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  .call-service-section li {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  .refer-earn-section li {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  .badge {
+    font-weight: normal;
+  }
+  .btn-warning {
+    background-color: #ffd700;
+    border: none;
+  }
+  .refer-earn-section, .call-service-section {
+    font-family: 'Arial', sans-serif;
+  }
+        
+  .btn-success, .btn-primary {
+    border: none;
+  }
+/* Code for Subscription/Refer/Call Section  End*/

@@ -1,0 +1,260 @@
+:root {
+            --primary-color: #007bff;
+            --secondary-color: #6c757d;
+            --background-color: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: var(--background-color);
+            color: #333;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url('https://img.freepik.com/free-photo/medium-shot-doctors-wearing-protective-equipment_23-2149994405.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            min-height: 500px;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            animation: fadeInUp 1s ease-out;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .service-icon {
+            font-size: 3rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .gallery-img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            margin-bottom: 1rem;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-img:hover {
+            transform: scale(1.05);
+        }
+
+        .brand-slider {
+            background-color: #fff;
+            padding: 2rem 0;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .brand-logo {
+            height: 60px;
+            object-fit: contain;
+            margin: 0 20px;
+        }
+
+        .story-vision {
+            background-color: #f9f9f9;
+            padding: 4rem 0;
+        }
+
+        .story-vision h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .story-vision p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        .app-download {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 3rem 0;
+            border-radius: 20px;
+            margin-bottom: 5px;
+        }
+
+        .app-btn {
+            height: 50px;
+            margin: 10px;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        .app-btn:hover {
+            transform: scale(1.05);
+        }
+
+        .roadmap {
+            position: relative;
+            padding: 50px 0;
+        }
+
+        .roadmap::before {
+            content: '';
+            position: absolute;
+            width: 2px;
+            background-color: var(--primary-color);
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -1px;
+        }
+
+        .roadmap-item {
+            padding: 10px 40px;
+            position: relative;
+            background-color: inherit;
+            width: 50%;
+        }
+
+        .roadmap-item::after {
+            content: '';
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            right: -17px;
+            background-color: white;
+            border: 4px solid var(--primary-color);
+            top: 15px;
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        .left {
+            left: 0;
+        }
+
+        .right {
+            left: 50%;
+        }
+
+        .left::before {
+            content: " ";
+            height: 0;
+            position: absolute;
+            top: 22px;
+            width: 0;
+            z-index: 1;
+            right: 30px;
+            border: medium solid var(--primary-color);
+            border-width: 10px 0 10px 10px;
+            border-color: transparent transparent transparent var(--primary-color);
+        }
+
+        .right::before {
+            content: " ";
+            height: 0;
+            position: absolute;
+            top: 22px;
+            width: 0;
+            z-index: 1;
+            left: 30px;
+            border: medium solid var(--primary-color);
+            border-width: 10px 10px 10px 0;
+            border-color: transparent var(--primary-color) transparent transparent;
+        }
+
+        .right::after {
+            left: -16px;
+        }
+
+        .roadmap-content {
+            padding: 20px 30px;
+            background-color: white;
+            position: relative;
+            border-radius: 6px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-fadeInUp {
+            animation: fadeInUp 1s ease-out;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .roadmap::before {
+                left: 31px;
+            }
+
+            .roadmap-item {
+                width: 100%;
+                padding-left: 70px;
+                padding-right: 25px;
+            }
+
+            .roadmap-item::before {
+                left: 60px;
+                border: medium solid var(--primary-color);
+                border-width: 10px 10px 10px 0;
+                border-color: transparent var(--primary-color) transparent transparent;
+            }
+
+            .left::after, .right::after {
+                left: 15px;
+            }
+
+            .right {
+                left: 0%;
+            }
+        }
+        .join-careovr{
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+
+        }
+        .join-careovr h2{
+            color: #f8f9fa;
+        }
+        .join-careovr p{
+            color: #f8f9fa;
+        }
+        .join-sect{
+            background-color: #140B5C;
+            color: #fefffe;
+            transition: all ease-in;
+            margin: 5px;
+        }
+        .join-sect:hover{
+            background-color: #800000;
+    color: #ffd700;
+        }
+        .leader-social{
+            font-size: 24px;
+            margin-right: 5px;
+        }

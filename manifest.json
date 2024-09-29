@@ -2,7 +2,7 @@
   "name": "Careovr",
   "short_name": "Careovr",
   "description": "India's Fastest, Trusted and Affordable Healthcare Platform",
-  "start_url": "/index.html",
+  "start_url": "https://careovr.netlify.app/",
   "display": "standalone",
   "background_color": "#F8F9FA",
   "theme_color": "#F8F9FA",

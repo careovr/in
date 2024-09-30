@@ -1,7 +1,7 @@
 const content = [
-    { title: 'Why Rural India Deserves Faster and Affordable Healthcare – Here’s How We’re Making It Happen', link: 'blogs/rural-india-affordable-healthcare-solutions.html', date: '2024-07-15', type: 'blog', category: 'tech', image: 'img/blogs/tsfmGCX1TpyrCGkkwvwW-Q.webp' },
-    { title: 'How Blood Donation Can Save Lives: Benefits and How to Get Started', link: 'blogs/how-blood-donation-saves-lives-benefits-getting-started.html', date: '2024-07-16', type: 'blog', category: 'health', image: 'img/blogs/XOwZmWQfSQqLZtO0Jj3IFA.webp' },
-    { title: 'कैसे रखें ब्लड प्रेशर और शुगर को कंट्रोल में? | How to Control Blood Pressure and Sugar', link: 'blogs/how-to-control-blood-pressure-and-sugar.html', date: '2024-09-25', type: 'blog', category: 'health', image: 'img/blogs/how-to-control-blood-pressure-and-sugar.webp' },
+    { title: 'Why Rural India Deserves Faster and Affordable Healthcare – Here’s How We’re Making It Happen', link: 'blogs/rural-india-affordable-healthcare-solutions.html', date: '2024-07-15', type: 'blog', category: 'tech', image: 'img/blogs/tsfmGCX1TpyrCGkkwvwW-Q.png' },
+    { title: 'How Blood Donation Can Save Lives: Benefits and How to Get Started', link: 'blogs/how-blood-donation-saves-lives-benefits-getting-started.html', date: '2024-07-16', type: 'blog', category: 'health', image: 'img/blogs/XOwZmWQfSQqLZtO0Jj3IFA.png' },
+    { title: 'कैसे रखें ब्लड प्रेशर और शुगर को कंट्रोल में? | How to Control Blood Pressure and Sugar', link: 'blogs/how-to-control-blood-pressure-and-sugar.html', date: '2024-09-25', type: 'blog', category: 'health', image: 'img/blogs/how-to-control-blood-pressure-and-sugar.png' },
     { title: 'कैसे रखें अपनी इम्यूनिटी को मजबूत? | How to Keep Your Immunity Strong', link: 'blogs/how-to-keep-your-immunity-strong.html', date: '2024-09-29', type: 'blog', category: 'health', image: 'https://img.freepik.com/free-vector/boost-your-immune-system-infographic_23-2148578950.jpg' },
 
 

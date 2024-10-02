@@ -111,36 +111,65 @@ const menuBtn = document.querySelector('.menu-btn');
             });
         });
 document.addEventListener('DOMContentLoaded', function() {
-    const loadingOverlay = document.getElementById('loading-overlay');
-    const externalLinks = document.querySelectorAll('.external-link');
+            const loadingOverlay = document.getElementById('loading-overlay');
+            const externalLinks = document.querySelectorAll('.none-link');
+            let navigationTimeout;
 
-    // Show loading overlay immediately when the script runs
-    loadingOverlay.classList.add('active');
+            function showLoader() {
+                loadingOverlay.classList.add('active');
+                // Automatically hide loader after 5 seconds if navigation doesn't occur
+                navigationTimeout = setTimeout(hideLoader, 5000);
+            }
 
-    // Hide loading overlay when the page finishes loading
-    window.addEventListener('load', function() {
-        loadingOverlay.classList.remove('active');
-    });
+            function hideLoader() {
+                loadingOverlay.classList.remove('active');
+                if (navigationTimeout) {
+                    clearTimeout(navigationTimeout);
+                }
+            }
 
-    // Show loading overlay when clicking external links
-    externalLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const href = this.getAttribute('href');
-            loadingOverlay.classList.add('active');
-            
-            // Simulate a delay before navigating to the new page
-            setTimeout(() => {
-                window.location.href = href;
-            }, 1000); // Adjust the delay as needed
+            // Show loading overlay immediately when the script runs
+            showLoader();
+
+            // Hide loading overlay when the page finishes loading
+            window.addEventListener('load', hideLoader);
+
+            // Show loading overlay when clicking external links
+            externalLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    if (!link.getAttribute('href').startsWith('tel:')) {
+                        e.preventDefault();
+                        const href = this.getAttribute('href');
+                        showLoader();
+                        
+                        // Navigate to the new page
+                        setTimeout(() => {
+                            window.location.href = href;
+                        }, 1000); // Adjust the delay as needed
+                    }
+                });
+            });
+
+            // Handle page visibility changes
+            document.addEventListener('visibilitychange', function() {
+                if (!document.hidden) {
+                    hideLoader();
+                }
+            });
+
+            // Handle page unload
+            window.addEventListener('beforeunload', showLoader);
+
+            // Handle page load and back button navigation
+            window.addEventListener('pageshow', function(event) {
+                if (event.persisted) {
+                    hideLoader();
+                }
+            });
+
+            // Handle navigation cancellation
+            window.addEventListener('popstate', hideLoader);
         });
-    });
-
-    // Show loading overlay when navigating between pages
-    window.addEventListener('beforeunload', function() {
-        loadingOverlay.classList.add('active');
-    });
-});
 
  // Service worker script
  self.addEventListener('fetch', (event) => {

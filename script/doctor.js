@@ -1,7 +1,7 @@
 const doctors = [
   { name: 'Dr. Aadarsh Mehra', city: 'Jaipur', specialty: 'Endocrinologists', link: '#', image: 'img/doctors/aadarsh.png', verified: true, rating: 4.5, gender: 'Male' },
   { name: 'Dr. Sumit Sharma', city: 'Delhi', specialty: 'Audiologists', link: '#', image: 'img/doctors/Sumit.png', verified: true, rating: 4.7, gender: 'Male' },
-  { name: 'Dr. Ananya Mishra', city: 'Mumbai', specialty: 'Cardiologist', link: 'doctors/dr_ananya_mishra.html', image: 'img/doctors/a.png', verified: true, rating: 4.9, gender: 'Female' },
+  { name: 'Dr. Kavya Gupta', city: 'Mumbai', specialty: 'Cardiologist', link: 'doctors/dr_kavya_gupta.html', image: 'img/doctors/a.png', verified: true, rating: 4.9, gender: 'Female' },
   { name: 'Dr. Raghav Singh', city: 'Delhi', specialty: 'Dentist', link: '#', image: 'img/doctors/aadarsh.png', verified: false, rating: 4.2, gender: 'Male' },
   { name: 'Dr. S. Jhunjhun Wala', city: 'Hasanpur', specialty: 'General Physician', link: '#', image: 'img/doctors/564532435.png', verified: true, rating: 4.5, gender: 'Male' },
   { name: 'Dr. Neeraj Kumar', city: 'Madhepura', specialty: 'Urologist', link: '#', image: 'img/doctors/doctor-male.png', verified: false, rating: 3.8, gender: 'Male' },

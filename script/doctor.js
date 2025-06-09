@@ -3,7 +3,7 @@ const doctors = [
   { name: 'Dr. Sumit Sharma', city: 'Delhi', specialty: 'Audiologists', link: '#', image: 'img/doctors/Sumit.png', verified: true, rating: 4.7, gender: 'Male' },
   { name: 'Dr. Kavya Gupta', city: 'Mumbai', specialty: 'Cardiologist', link: 'doctors/dr_kavya_gupta.html', image: 'img/doctors/a.png', verified: true, rating: 4.9, gender: 'Female' },
   { name: 'Dr. Raghav Singh', city: 'Delhi', specialty: 'Dentist', link: '#', image: 'img/doctors/aadarsh.png', verified: false, rating: 4.2, gender: 'Male' },
-  { name: 'Dr. S. Jhunjhun Wala', city: 'Hasanpur', specialty: 'General Physician', link: '#', image: 'img/doctors/564532435.png', verified: true, rating: 4.5, gender: 'Male' },
+  { name: 'Dr. S. Jhunjhun Wala', city: 'Hasanpur', specialty: 'General Physician', link: '#', image: 'img/doctors/564532435.png', verified: false, rating: 4.5, gender: 'Male' },
   { name: 'Dr. Neeraj Kumar', city: 'Madhepura', specialty: 'Urologist', link: '#', image: 'img/doctors/doctor-male.png', verified: false, rating: 3.8, gender: 'Male' },
   { name: 'Dr. Rakesh Kumar', city: 'Madhepura', specialty: 'Orthopedic', link: '#', image: 'img/doctors/doctor-male.png', verified: false, rating: 3.9, gender: 'Male' },
   { name: 'Dr. Mukesh Kumar', city: 'Madhepura', specialty: 'Laproscopy', link: '#', image: 'img/doctors/doctor-male.png', verified: false, rating: 4.1, gender: 'Male' },
@@ -34,10 +34,18 @@ function loadDoctorCards(doctors) {
           <div class="card">
               <img src="${doctor.image}" class="card-img-top profile" alt="${doctor.name}">
               <div class="card-body">
-        <h5 class="doctor-name">${doctor.name}  ${doctor.verified ? '<img src="img/doctors/icon/verified.svg" alt="verified" class="verified">' : ''}</h5>
+        <h5 class="doctor-name card-title">${doctor.name}  ${doctor.verified ? '<img src="img/doctors/icon/verified.svg" alt="verified" class="verified">' : ''}</h5>
                   <p class="card-text">${doctor.specialty}</p>
-                  <p class="card-text"><small class="text-muted"><i class="fa fa-location-pin"> ${doctor.city}</i></small></p>
-                  <p class="card-text"><small class="text-muted">Rating: ${doctor.rating}<i class="fa fa-star"></i></small></p>
+                
+                  <div class="location">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                            <span>${doctor.city}</span>
+                        </div></p>
+                                          <p class="card-text"><small class="text-muted "><i class="fa fa-star rating"></i> (${doctor.rating}) </small></p>
+
               </div>
           </div>
           </a>

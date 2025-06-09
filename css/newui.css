@@ -431,6 +431,11 @@ body {
                 padding-top: 1rem;
                 font-size: 0.75rem;
             }
+            .footer-title{
+                height: auto;
+                width: 180px;
+                margin-bottom: 60px;
+            }
         }
 
         @media (max-width: 480px) {
@@ -565,4 +570,18 @@ body {
             }
         }
         /* Code for FAQ Ends  */
+        .rating {
+            color: #ffc107;
+        }
         
+  .location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+.location svg {
+    width: 16px;
+    height: 16px;
+    margin-right: 0.25rem;
+}

@@ -62,14 +62,15 @@ body{
         }
 
         .card-body h5 {
-            color: #007bff;
-            font-weight: bold;
-            font-size: 14px;
+            font-weight: 600;
+      margin-bottom: 0.5rem;
+      font-size: 1.1rem;
         }
 
         .card-body p {
-            color: #6c757d;
-            margin: 0;
+      color: #6c757d;
+      font-size: 0.9rem;
+      margin: 0;
         }
 
         .card-body small {
@@ -89,5 +90,11 @@ body{
         }
         .profile-link{
             text-decoration: none;
+        }
+        @media (max-width: 380px) {
+            .card-body h5 {
+          margin-bottom: 0.5rem;
+          font-size: 0.7rem;
+            }
         }
         

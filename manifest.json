@@ -28,7 +28,27 @@
       "type": "image/png"
     },
     {
-      "src": "/img/shots/shot2.png",
+      "src": "/img/shots/shot3.jpeg",
+      "sizes": "932x430",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/shots/shot6.jpeg",
+      "sizes": "932x430",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/shots/shot2.jpeg",
+      "sizes": "932x430",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/shots/shot5.jpeg",
+      "sizes": "932x430",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/shots/shot4.jpeg",
       "sizes": "932x430",
       "type": "image/png"
     }

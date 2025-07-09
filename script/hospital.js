@@ -1,8 +1,8 @@
 const hospitals = [
   { name: 'Isha Healthcare', city: 'Samastipur', link: 'hospitals/isha_healthcare.html', image: 'https://img.freepik.com/free-photo/glass-designed-building-view_23-2148230382.jpg', rating: 4.3, verified: true },
-  { name: 'Jiwan Hospital', city: 'Delhi', link: '#', image: 'https://img.freepik.com/free-photo/analog-landscape-city-with-buildings_23-2149661462.jpg', rating: 3.8, verified: false },
-  { name: 'Sri Ram Janki Hospital', city: 'Mumbai', link: '#', image: 'https://img.freepik.com/premium-photo/hospital-building-red-cross-medical-institution-health-treatment-disease-wallpaper-background_327903-1523123.jpg', rating: 4.1, verified: true },
-  { name: 'Gangotri Memorial Hospital', city: 'Madhepura', link: '#', image: 'https://img.freepik.com/free-photo/glass-designed-building-view_23-2148230382.jpg', rating: 4.0, verified: false },
+  // { name: 'Jiwan Hospital', city: 'Delhi', link: '#', image: 'https://img.freepik.com/free-photo/analog-landscape-city-with-buildings_23-2149661462.jpg', rating: 3.8, verified: false },
+  // { name: 'Sri Ram Janki Hospital', city: 'Mumbai', link: '#', image: 'https://img.freepik.com/premium-photo/hospital-building-red-cross-medical-institution-health-treatment-disease-wallpaper-background_327903-1523123.jpg', rating: 4.1, verified: true },
+  // { name: 'Gangotri Memorial Hospital', city: 'Madhepura', link: '#', image: 'https://img.freepik.com/free-photo/glass-designed-building-view_23-2148230382.jpg', rating: 4.0, verified: false },
 ];
 
 const searchInput = document.getElementById('searchInput');

@@ -1,7 +1,7 @@
 const doctors = [
   { name: 'Laxmi Kumari', city: 'Jaipur', link: 'caregivers/laxmi_kumari_23.html', specialty: 'Baby Care', image: 'https://img.freepik.com/premium-photo/women-beautiful-fashion-dress_953724-3410.jpg', verified: true, rating: 4.5, gender: 'Female' },
-  // { name: 'Aditya Sharma', city: 'Delhi', link: '#', specialty: 'Elder Care',  image: 'https://img.freepik.com/premium-photo/photo-young-man-wearing-casual-clothes-with-happy-cool-smile-face_1058215-16.jpg', verified: false,rating: 4.5, gender: 'Male' },
-  // { name: 'Prabhat Kumar', city: 'Mumbai', link: '#', specialty: 'Full Time Care', image: 'https://img.freepik.com/premium-photo/portrait-smiling-young-man_1048944-16925927.jpg', verified: true,rating: 4.5, gender: 'Male' },
+  { name: 'Aditya Sharma', city: 'Delhi', link: '#', specialty: 'Elder Care',  image: 'https://img.freepik.com/premium-photo/photo-young-man-wearing-casual-clothes-with-happy-cool-smile-face_1058215-16.jpg', verified: false,rating: 4.5, gender: 'Male' },
+  { name: 'Prabhat Kumar', city: 'Mumbai', link: '#', specialty: 'Full Time Care', image: 'https://img.freepik.com/premium-photo/portrait-smiling-young-man_1048944-16925927.jpg', verified: true,rating: 4.5, gender: 'Male' },
 ];
 
 

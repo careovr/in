@@ -1,17 +1,17 @@
 const doctors = [
   { name: 'Dr. Kavya Gupta', city: 'Mumbai', specialty: 'Cardiologist', link: 'doctors/dr_kavya_gupta.html', image: 'img/doctors/a.png', verified: true, rating: 4.9, gender: 'Female' },
-  // { name: 'Dr. Aadarsh Mehra', city: 'Jaipur', specialty: 'Endocrinologists', link: '#', image: 'img/doctors/aadarsh.png', verified: true, rating: 4.5, gender: 'Male' },
-  // { name: 'Dr. Sumit Sharma', city: 'Delhi', specialty: 'Audiologists', link: '#', image: 'img/doctors/Sumit.png', verified: true, rating: 4.7, gender: 'Male' },
-  // { name: 'Dr. Raghav Singh', city: 'Delhi', specialty: 'Dentist', link: '#', image: 'img/doctors/aadarsh.png', verified: false, rating: 4.2, gender: 'Male' },
-  // { name: 'Dr. S. Jhunjhun Wala', city: 'Hasanpur', specialty: 'General Physician', link: '#', image: 'img/doctors/564532435.png', verified: false, rating: 4.5, gender: 'Male' },
-  // { name: 'Dr. Neeraj Kumar', city: 'Madhepura', specialty: 'Urologist', link: '#', image: 'img/doctors/doctor-male.png', verified: false, rating: 3.8, gender: 'Male' },
-  // { name: 'Dr. Rakesh Kumar', city: 'Madhepura', specialty: 'Orthopedic', link: '#', image: 'img/doctors/doctor-male.png', verified: false, rating: 3.9, gender: 'Male' },
-  // { name: 'Dr. Mukesh Kumar', city: 'Madhepura', specialty: 'Laproscopy', link: '#', image: 'img/doctors/doctor-male.png', verified: false, rating: 4.1, gender: 'Male' },
-  // { name: 'Dr. Manoj Kumar', city: 'Madhepura', specialty: 'General Practitioner', link: '#', image: 'img/doctors/doctor-male.png', verified: false, rating: 3.7, gender: 'Male' },
-  // { name: 'Dr. Sonu Kumar', city: 'Madhepura', specialty: 'General Practitioner', link: '#', image: 'img/doctors/doctor-male.png', verified: false, rating: 3.6, gender: 'Male' },
-  // { name: 'Dr. Punita Kumari', city: 'Madhepura', specialty: 'General Practitioner', link: '#', image: 'img/doctors/doctor-female.png', verified: false, rating: 3.8, gender: 'Female' },
-  // { name: 'Dr. Siddhart Priyadarshi', city: 'Madhepura', specialty: 'Neurologist', link: '#', image: 'img/doctors/doctor-male.png', verified: false, rating: 4.3, gender: 'Male' },
-  // { name: 'Dr. K. K. Pujan', city: 'Madhepura', specialty: 'General Surgeon', link: '#', image: 'img/doctors/doctor-male.png', verified: false, rating: 4.0, gender: 'Male' }
+  { name: 'Dr. Aadarsh Mehra', city: 'Jaipur', specialty: 'Endocrinologists', link: '#', image: 'img/doctors/aadarsh.png', verified: true, rating: 4.5, gender: 'Male' },
+  { name: 'Dr. Sumit Sharma', city: 'Delhi', specialty: 'Audiologists', link: '#', image: 'img/doctors/Sumit.png', verified: true, rating: 4.7, gender: 'Male' },
+  { name: 'Dr. Raghav Singh', city: 'Delhi', specialty: 'Dentist', link: '#', image: 'img/doctors/aadarsh.png', verified: false, rating: 4.2, gender: 'Male' },
+  { name: 'Dr. S. Jhunjhun Wala', city: 'Hasanpur', specialty: 'General Physician', link: '#', image: 'img/doctors/564532435.png', verified: false, rating: 4.5, gender: 'Male' },
+  { name: 'Dr. Neeraj Kumar', city: 'Madhepura', specialty: 'Urologist', link: '#', image: 'img/doctors/doctor-male.png', verified: false, rating: 3.8, gender: 'Male' },
+  { name: 'Dr. Rakesh Kumar', city: 'Madhepura', specialty: 'Orthopedic', link: '#', image: 'img/doctors/doctor-male.png', verified: false, rating: 3.9, gender: 'Male' },
+  { name: 'Dr. Mukesh Kumar', city: 'Madhepura', specialty: 'Laproscopy', link: '#', image: 'img/doctors/doctor-male.png', verified: false, rating: 4.1, gender: 'Male' },
+  { name: 'Dr. Manoj Kumar', city: 'Madhepura', specialty: 'General Practitioner', link: '#', image: 'img/doctors/doctor-male.png', verified: false, rating: 3.7, gender: 'Male' },
+  { name: 'Dr. Sonu Kumar', city: 'Madhepura', specialty: 'General Practitioner', link: '#', image: 'img/doctors/doctor-male.png', verified: false, rating: 3.6, gender: 'Male' },
+  { name: 'Dr. Punita Kumari', city: 'Madhepura', specialty: 'General Practitioner', link: '#', image: 'img/doctors/doctor-female.png', verified: false, rating: 3.8, gender: 'Female' },
+  { name: 'Dr. Siddhart Priyadarshi', city: 'Madhepura', specialty: 'Neurologist', link: '#', image: 'img/doctors/doctor-male.png', verified: false, rating: 4.3, gender: 'Male' },
+  { name: 'Dr. K. K. Pujan', city: 'Madhepura', specialty: 'General Surgeon', link: '#', image: 'img/doctors/doctor-male.png', verified: false, rating: 4.0, gender: 'Male' }
 ];
 
 

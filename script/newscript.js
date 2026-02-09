@@ -14,26 +14,26 @@ const menuBtn = document.querySelector('.menu-btn');
             sideNavbar.classList.remove('open');
         });
 
-        emergencyBtn.addEventListener('click', (e) => {
-            e.stopPropagation();
-            emergencyMenu.classList.toggle('open');
-            profileMenu.classList.remove('open');
-        });
+        // emergencyBtn.addEventListener('click', (e) => {
+        //     e.stopPropagation();
+        //     emergencyMenu.classList.toggle('open');
+        //     profileMenu.classList.remove('open');
+        // });
 
         profilePic.addEventListener('click', (e) => {
             e.stopPropagation();
             profileMenu.classList.toggle('open');
-            emergencyMenu.classList.remove('open');
+            // emergencyMenu.classList.remove('open');
         });
 
         document.body.addEventListener('click', () => {
-            emergencyMenu.classList.remove('open');
+            // emergencyMenu.classList.remove('open');
             profileMenu.classList.remove('open');
         });
 
-        emergencyMenu.addEventListener('click', (e) => {
-            e.stopPropagation();
-        });
+        // emergencyMenu.addEventListener('click', (e) => {
+        //     e.stopPropagation();
+        // });
 
         profileMenu.addEventListener('click', (e) => {
             e.stopPropagation();

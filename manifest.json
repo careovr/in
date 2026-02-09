@@ -1,7 +1,7 @@
 {
   "name": "Careovr",
   "short_name": "Careovr",
-  "description": "India's Fastest, Trusted and Affordable Healthcare Platform",
+  "description": "Care You Can Count On",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
@@ -63,11 +63,6 @@
       "name": "Doctors",
       "url": "/doctors",
       "icons": [{ "src": "/img/ico/medical-team.png", "sizes": "96x96" }]
-    },
-    {
-      "name": "Book Ambulance",
-      "url": "/ambulance",
-      "icons": [{ "src": "/img/ico/ambulance.png", "sizes": "96x96" }]
     },
     {
       "name": "Refer & Earn",

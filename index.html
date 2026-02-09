@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Careovr | India's Fastest, Trusted and Affordable Healthcare Platform</title>
+    <title>Careovr | Care You Can Count On</title>
     <meta name="description" content="Careovr offers fast, affordable, and trusted online doctor consultations, lab tests, and healthcare services across India. Book your appointment in minutes.">
     <meta name="keywords" content="health services, emergency care, trusted healthcare, doctors, hospitals, caregivers, online consultations, health tips, medical services, Careovr">
-    <meta name="author" content="Zoftics Co.">
+    <meta name="author" content="Scoryn Co.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://careovr.netlify.app/">
-    <meta property="og:title" content="Careovr | India's Fastest, Trusted and Affordable Healthcare Platform">
+    <meta property="og:title" content="Careovr | Care You Can Count On">
     <meta property="og:description" content="Careovr offers fast, affordable, and trusted online doctor consultations, lab tests, and healthcare services across India. Book your appointment in minutes.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://careovr.netlify.app/">
     <meta property="og:image" content="https://careovr.netlify.app/img/blogs/home.png">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Careovr | India's Fastest, Trusted and Affordable Healthcare Platform">
+    <meta name="twitter:title" content="Careovr | Care You Can Count On">
     <meta name="twitter:description" content="Careovr offers fast, affordable, and trusted online doctor consultations, lab tests, and healthcare services across India. Book your appointment in minutes.">
     <meta name="twitter:image" content="https://careovr.netlify.app/img/blogs/home.png">
     <meta name="twitter:url" content="https://careovr.netlify.app/">
@@ -71,7 +71,7 @@
                 <a href="contact.html">Contact</a>
                 <a href="blogs.html">Blogs</a>
             </div>
-            <button class="emergency-btn"><i class="fas fa-ambulance"></i></button>
+            <a href="https://wa.me/919234775045?text=Hi%20Careovr" class="none-link"><button class="emergency-btn"><i class="fas fab fa-whatsapp"></i></button></a>
             <img src="img/ico/account-avatar-profile-user-svgrepo-com.svg" alt="Profile" class="profile-pic">
         </div>
     </nav>
@@ -88,11 +88,7 @@
         </ul>
     </div>
 
-    <!-- <div class="emergency-menu">
-        <a class="none-link" href="ambulance.html"><button class="menu-button" id="book-ambulance"><i class="fas fa-ambulance"></i>Book Ambulance</button></a>
-        <a class="none-link" href="tel:+919234775045"><button class="menu-button" id="call-emergency"><i class="fas fa-phone-alt"></i>Call Emergency</button></a>
-        <a class="none-link" href="blood-finder.html"><button class="menu-button" id="find-blood-donor"><i class="fas fa-tint"></i>Find Blood Donor</button></a>
-    </div> -->
+   
 
     <div class="profile-menu">
 
@@ -150,9 +146,9 @@
             <div class="banner-slide">
                 <img class="main-banner" src="img/banner/blood-donor.webp" alt="Banner 2">
             </div>
-            <div class="banner-slide">
+            <!-- <div class="banner-slide">
                 <img class="main-banner" src="img/banner/ambulance.webp" alt="Banner 3">
-            </div>
+            </div> -->
             
             <div class="banner-slide">
                 <img class="main-banner" src="img/banner/promo/2.png" alt="Banner 5">
@@ -166,9 +162,9 @@
             <div class="banner-slide">
                 <img class="main-banner" src="img/banner/health-solution.webp" alt="Banner 8">
             </div>
-            <!-- <div class="banner-slide">
+            <div class="banner-slide">
                 <img class="main-banner" src="img/banner/caregiver.webp" alt="Banner 9">
-            </div> -->
+            </div>
             <div class="banner-slide">
                 <img class="main-banner" src="img/banner/promo/3.png" alt="Banner 10">
             </div>
@@ -191,65 +187,7 @@
             </div>
         </div>
       </div>
-      <div class="daily-task">
-        <div class="container-fluid closx">
-          <div class="section-">
-            <h2 class="section-name">Daily streak</h2>
-            <p class="section-info">Check-in Daily and Complete 100% Progress to Get Assured Rewards.</p>
-          </div>
-            <div class="progress">
-            <div id="progress-bar" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
-          </div>
-          <button id="check-in-btn" class="btn blog-btn mt-3" onclick="checkIn()" disabled>Check-in</button>
-          <div id="timer" class="mt-3"></div>
-        
-          <div id="popup-form" class="modal fade" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title">Reward Form</h5>
-                  <button type="button" style="border: 0;background-color: transparent;"  data-dismiss="modal" onclick="resetProgress()"><i class="fa-solid fa-xmark"></i></button>
-        
-                </div>
-        <div class="modal-body">
-                  
-                  <form>
-                    <div class="form-group">
-                      <label for="fullName">Full Name</label>
-                      <input type="text" name="name" class="form-control" id="fullName" placeholder="Enter your full name">
-                    </div>
-                    <div class="form-group">
-                      <label for="mobileNo">Mobile No</label>
-                      <input type="text" name="phone" class="form-control" id="mobileNo" placeholder="Enter your mobile number">
-                    </div>
-                    <button type="submit" id="sub" onclick="alert('Your Reward Will Credit Soon in your Wallet.')" class="btn btn-primary" style="margin-top: 15px;">Submit</button>
-        
-                  </form>
-                </div>
-                <script>
-                  let form = document.querySelector("form");
-                  // The document.querySelector() method returns the first element that matches a specified CSS selector.
-                  form.addEventListener('submit', (e) => {
-                      e.preventDefault();
-                      document.querySelector("#sub").value = "Submiting..";
-                      let data = new FormData(form);
-                      fetch('https://script.google.com/macros/s/AKfycbybX6bbSSl88Bl3-4Qep2bXJCDw3i4n1685eyLq5pCfPF0M0CkDXENvTmDKRhoemkXm/exec', {
-                              method: "POST",
-                              body: data
-                          })
-                          .then(res => res.text())
-                          .then(data => {
-                              document.querySelector("#msg").innerHTML = data;
-                              document.querySelector("#sub").value = "Submit"
-                             
-                          });
-                  })
-                </script>
-              </div>
-            </div>
-          </div>
-        </div>
-        </div>
+      
       <div class="section-cards card-pro">
         <!-- Doctors Section -->
         <h2 class="section-name">Our Doctors
@@ -404,7 +342,7 @@
                 </div>
             </div>
         </section>
-        <!-- <h2 class="section-name">Caregivers
+        <h2 class="section-name">Caregivers
             <a href="caregivers.html" class="float-end text-decoration-none">See All <i class="fa fa-arrow-right"></i></a></h2>   
             <div class="card-slider">
                 <div class="card-slider-inner">
@@ -450,7 +388,7 @@
                             </div>
                         </div>
                     </div>
-                </section> -->
+                </section>
         <h2 class="section-name">Hospitals
             <a href="hospitals.html" class="float-end text-decoration-none">See All <i class="fa fa-arrow-right"></i></a></h2>
                         <div class="card-slider">
@@ -475,61 +413,15 @@
                   </a>
               </div>
           </div>
-          
-<!-- Health Tips Section -->
-<h2 class="section-name">Health Tips For You </h2>
-              <div class="card-slider">
-    <div class="card-slider-inner">
-        <div class="card">
-            <div class="card-body text-center">
-                <div class="health-tip-icon"><i class="fas fa-tint"></i></div>
-                <h5 class="card-title">Stay Hydrated</h5>
-                <p class="card-text">Drink at least 8 glasses of water daily to maintain proper hydration and support bodily functions.</p>
+    <!-- Health Tips Section -->
+    <section id="health-tips-section" class="health-tips-container">
+        <h2 class="section-name">Health Tips For You</h2>
+        <div class="card-slider">
+          <div class="card-slider-inner" id="healthTipsCardsContainer">
+              <!-- Cards will be loaded here by JavaScript -->
             </div>
         </div>
-        
-        <div class="card">
-            <div class="card-body text-center">
-                <div class="health-tip-icon"><i class="fas fa-apple-alt"></i></div>
-                <h5 class="card-title">Eat Nutrient-Rich Foods</h5>
-                <p class="card-text">Incorporate fruits, vegetables, and whole grains into your diet to maintain good health and boost immunity.</p>
-            </div>
-        </div>
-        
-        <div class="card">
-            <div class="card-body text-center">
-                <div class="health-tip-icon"><i class="fas fa-walking"></i></div>
-                <h5 class="card-title">Stay Active</h5>
-                <p class="card-text">Engage in at least 30 minutes of physical activity daily to keep your heart healthy and improve mental well-being.</p>
-            </div>
-        </div>
-        
-        <div class="card">
-            <div class="card-body text-center">
-                <div class="health-tip-icon"><i class="fas fa-bed"></i></div>
-                <h5 class="card-title">Get Enough Sleep</h5>
-                <p class="card-text">Aim for 7-8 hours of sleep each night to help your body recover and maintain a strong immune system.</p>
-            </div>
-        </div>
-        
-        <div class="card">
-            <div class="card-body text-center">
-                <div class="health-tip-icon"><i class="fas fa-brain"></i></div>
-                <h5 class="card-title">Manage Stress</h5>
-                <p class="card-text">Practice relaxation techniques like meditation or deep breathing to manage stress and improve your mental health.</p>
-            </div>
-        </div>
-        
-        <div class="card">
-            <div class="card-body text-center">
-                <div class="health-tip-icon"><i class="fas fa-smile"></i></div>
-                <h5 class="card-title">Maintain Mental Well-being</h5>
-                <p class="card-text">Take time for activities that bring you joy, socialize with loved ones, and seek support when needed.</p>
-            </div>
-        </div>
-        
-    </div>
-</div>
+    </section>
 <!--         <section class="membership-section py-2"> 
     <div class="container">
         <div class="row align-items-center bg-light rounded-3 p-3">
@@ -858,7 +750,7 @@
             <div class="careovr-footer-section">
                 <h3>Connect With Us</h3>
                 <div class="careovr-social-icons">
-                    <a href="https://www.facebook.com/profile.php?id=61575038797712"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.facebook.com/people/Careovr-Healthcare/61577361836495/"><i class="fab fa-facebook"></i></a>
                     <a href="https://x.com/careovr"><i class="fa-brands fa-x-twitter"></i></a>
                     <a href="https://instagram.com/offi_careovr"><i class="fab fa-instagram"></i></a>
                     <a href="https://www.linkedin.com/company/careovr-healthcare/"><i class="fab fa-linkedin"></i></a>
@@ -869,8 +761,8 @@
         <div class="careovr-footer-bottom">
             <p>&copy; 2025 Careovr. All rights reserved.</p>
             <p>Estd. July 2025</p>
-            <p>Made with <span class="careovr-heart"><i class="fa-solid fa-heart"></i></span> by Keshav Mishra and Zoftics Co.</p>
-            <img class="footer-title" src="img/cleanfooter.png" alt="" >
+            <p>Made with <span class="careovr-heart"><i class="fa-solid fa-heart"></i></span> by Keshav Mishra and Scoryn Co.</p>
+            <div class="footer-title"></div>
 
         </div>
     </footer>
@@ -895,7 +787,7 @@
     </script>
     <script src="script/load.js"></script>
     <script src="script/newscript.js"></script>
-    <script src="script/streak.js"></script>
+    <script src="script/htips.js"></script>
     <script src="script/service-worker.js"></script>
     <script src="script/btn.js"></script>
     <!-- Google Tag Manager (noscript) -->

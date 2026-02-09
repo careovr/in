@@ -28,17 +28,7 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://careovr.netlify.app/ambulance</loc>
-  <lastmod>2024-09-30T09:35:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://careovr.netlify.app/blood-finder</loc>
-  <lastmod>2024-09-30T09:35:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://careovr.netlify.app/reminders</loc>
   <lastmod>2024-09-30T09:35:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -79,11 +69,6 @@
 </url>
 <url>
   <loc>https://careovr.netlify.app/hospitals/isha_healthcare</loc>
-  <lastmod>2024-09-30T09:35:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://careovr.netlify.app/subscription</loc>
   <lastmod>2024-09-30T09:35:19+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -173,17 +158,7 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://careovr.netlify.app/signup-pharmacy</loc>
-  <lastmod>2024-09-30T09:35:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>https://careovr.netlify.app/blood-donor-signup</loc>
-  <lastmod>2024-09-30T09:35:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://careovr.netlify.app/register-as-ambulance</loc>
   <lastmod>2024-09-30T09:35:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>

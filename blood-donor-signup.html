@@ -7,7 +7,7 @@
     <title>Join Careovr | Sign Up as a Blood Donor and Save Lives</title>
 <meta name="description" content="Sign up as a blood donor on Careovr to save lives or get paid for your donation. Join our community of lifesavers and help those in urgent need of blood. Register today to make a difference.">
 <meta name="keywords" content="blood donor signup, join Careovr, save lives, get paid for blood donation, blood donation platform, donate blood, register as blood donor">
-<meta name="author" content="Zoftics Co.">
+<meta name="author" content="Scoryn Co.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://careovr.netlify.app/blood-donor-signup">
 
@@ -72,7 +72,7 @@
                 <a href="contact.html">Contact</a>
                 <a href="blogs.html">Blogs</a>
             </div>
-            <button class="emergency-btn"><i class="fas fa-ambulance"></i></button>
+            <a href="https://wa.me/919234775045?text=Hi%20Careovr" class="none-link"><button class="emergency-btn"><i class="fas fab fa-whatsapp"></i></button></a>
             <img src="img/ico/account-avatar-profile-user-svgrepo-com.svg" alt="Profile" class="profile-pic">
         </div>
     </nav>
@@ -89,17 +89,14 @@
         </ul>
     </div>
 
-    <div class="emergency-menu">
-        <a class="none-link" href="ambulance.html"><button class="menu-button" id="book-ambulance"><i class="fas fa-ambulance"></i>Book Ambulance</button></a>
-        <a class="none-link" href="tel:+919234775045"><button class="menu-button" id="call-emergency"><i class="fas fa-phone-alt"></i>Call Emergency</button></a>
-        <a class="none-link" href="blood-finder.html"><button class="menu-button" id="find-blood-donor"><i class="fas fa-tint"></i>Find Blood Donor</button></a>
-    </div>
+   
 
     <div class="profile-menu">
 
         <a href="request-prescription.html" class="none-link"><button class="menu-button" id="request-rx"><i class="fas fa-prescription-bottle-alt"></i>Request Rx</button></a>
         <a href="https://wa.me/919234775045?text=My%20Upcoming%20Appointments" class="none-link"><button class="menu-button" id="appointments"><i class="fas fa-calendar-check"></i>Appointments</button></a>
     </div>
+
 
     <!-- Mobile Footer -->
     <footer class="footer">
@@ -158,7 +155,7 @@
                   <select id="donor_category" name="donor_category" required>
                       <option value="" disabled selected>Select Category</option>
                       <option value="help">Donate for Help</option>
-                      <option value="paid">Want to get Paid</option>
+                      <!-- <option value="paid">Want to get Paid</option> -->
                   </select>
               </div>
               <div class="form-group">
@@ -219,7 +216,7 @@
           e.preventDefault();
           document.querySelector("#sub").value = "Submitting..";
           let data = new FormData(form);
-          fetch('https://script.google.com/macros/s/AKfycbwum4z5XSm31TyrECEHRp7zcGPGqpkD8Y4uG8g3pwaMWx1m_FF8o9B73YJcnWmuS_eqHQ/exec', {
+          fetch('https://script.google.com/macros/s/AKfycbwq7j0zTlsI2S4JhIwiFtqeTilyahe4KVE29LPgdKmucsst5PkIsCXOFcBvAhsQfdYzwA/exec', {
               method: "POST",
               body: data
           })
@@ -297,7 +294,7 @@
             <div class="careovr-footer-section">
                 <h3>Connect With Us</h3>
                 <div class="careovr-social-icons">
-                    <a href="https://www.facebook.com/profile.php?id=61575038797712"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.facebook.com/people/Careovr-Healthcare/61577361836495/"><i class="fab fa-facebook"></i></a>
                     <a href="https://x.com/careovr"><i class="fa-brands fa-x-twitter"></i></a>
                     <a href="https://instagram.com/offi_careovr"><i class="fab fa-instagram"></i></a>
                     <a href="https://www.linkedin.com/company/careovr-healthcare/"><i class="fab fa-linkedin"></i></a>
@@ -308,8 +305,8 @@
         <div class="careovr-footer-bottom">
             <p>&copy; 2025 Careovr. All rights reserved.</p>
             <p>Estd. July 2025</p>
-            <p>Made with <span class="careovr-heart"><i class="fa-solid fa-heart"></i></span> by Keshav Mishra and Zoftics Co.</p>
-            <img class="footer-title" src="img/cleanfooter.png" alt="" >
+            <p>Made with <span class="careovr-heart"><i class="fa-solid fa-heart"></i></span> by Keshav Mishra and Scoryn Co.</p>
+            <div class="footer-title"></div>
 
         </div>
     </footer>

@@ -1,5 +1,5 @@
 const featuredItems = [
-    { name: 'Book Appointment', icon: 'img/ico/video-call.png', link: '#', calendly: true },
+    { name: 'Instant Appointment', icon: 'img/ico/video-call.png', link: '#', calendly: true },
     { name: 'Doctors', icon: 'img/ico/medical-team.png', link: 'doctors.html' },
     { name: 'Hospitals', icon: 'img/ico/hospital.png', link: 'hospitals.html' },
     { name: 'Find Labs', icon: 'img/ico/pharmacy.png', link: 'pathlabs.html' },
@@ -7,7 +7,7 @@ const featuredItems = [
     // { name: 'Order Medicine', icon: 'img/ico/medicine.png', link: 'https://gostore.app/berrybone/manualorders' },
     { name: 'Book Lab Tests', icon: 'img/ico/microscope.png', link: 'https://gostore.app/berrybone/categories/sKh2KDDiBaXSl5G4u0tg' },
     // { name: 'Book Ambulance', icon: 'img/ico/ambulance.png', link: 'ambulance.html' },
-    { name: 'Caregivers', icon: 'img/ico/old.png', link: 'caregivers.html' },
+    { name: 'Caretakers', icon: 'img/ico/old.png', link: 'caregivers.html' },
     { name: 'My V-Pet', icon: 'img/ico/virtual-pet.png', link: 'my-vpet.html' },
     { name: 'Breathing Meditation', icon: 'img/ico/yoga.png', link: 'breath.html' },
     { name: 'BMI Calculator', icon: 'img/ico/bmi.png', link: 'bmi-calculator.html' },

@@ -8,7 +8,9 @@
 body {
     background-color: #E6F3F8;
 }
-
+#chatbase-bubble-button{
+    position: fixed; border: 0px; bottom: 4.2rem; right: 1rem; width: 55px; height: 55px; border-radius: 27.5px; background-color: rgb(20, 11, 92); box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px; cursor: pointer; z-index: 2147483645; pointer-events: auto; transition: 0.2s ease-in-out; left: unset;
+}
 .navbar {
     display: flex;
     justify-content: space-between;

@@ -1,73 +1,89 @@
 {
   "name": "Careovr",
   "short_name": "Careovr",
-  "description": "Care You Can Count On",
-  "start_url": "/",
+  "description": "Careovr helps you book doctors, lab tests, caretakers, hospitals, and find blood donors easily. Trusted, simple, and accessible healthcare for everyone.",
+  
+  "id": "/?source=pwa",
+  "start_url": "/?source=pwa",
   "scope": "/",
+  
   "display": "standalone",
   "orientation": "portrait",
-  "theme_color": "#F8F9FA",
+  
+  "theme_color": "#0D6EFD",
   "background_color": "#F8F9FA",
+  
   "lang": "en",
+  "dir": "ltr",
+  
+  "categories": ["health", "medical", "productivity"],
+  
   "icons": [
     {
       "src": "/img/logo.png",
-      "sizes": "144x144",
-      "type": "image/png"
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "/img/logo.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/img/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ],
+
   "screenshots": [
     {
       "src": "/img/shots/shot1.png",
-      "sizes": "932x430",
-      "type": "image/png"
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow"
     },
     {
       "src": "/img/shots/shot3.jpeg",
-      "sizes": "932x430",
-      "type": "image/png"
-    },
-    {
-      "src": "/img/shots/shot6.jpeg",
-      "sizes": "932x430",
-      "type": "image/png"
+      "sizes": "1080x1920",
+      "type": "image/jpeg",
+      "form_factor": "narrow"
     },
     {
       "src": "/img/shots/shot2.jpeg",
-      "sizes": "932x430",
-      "type": "image/png"
-    },
-    {
-      "src": "/img/shots/shot5.jpeg",
-      "sizes": "932x430",
-      "type": "image/png"
-    },
-    {
-      "src": "/img/shots/shot4.jpeg",
-      "sizes": "932x430",
-      "type": "image/png"
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide"
     }
   ],
+
   "shortcuts": [
     {
-      "name": "Today's Task",
-      "url": "/my-vpet",
-      "icons": [{ "src": "/img/logo.png", "sizes": "96x96" }]
-    },
-    {
-      "name": "Doctors",
+      "name": "Book Doctor",
+      "short_name": "Doctors",
       "url": "/doctors",
       "icons": [{ "src": "/img/ico/medical-team.png", "sizes": "96x96" }]
     },
     {
-      "name": "Refer & Earn",
-      "url": "/refer",
-      "icons": [{ "src": "/img/ico/cost.png", "sizes": "96x96" }]
+      "name": "Lab Tests",
+      "short_name": "Labs",
+      "url": "/pathlabs",
+      "icons": [{ "src": "/img/ico/lab.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Find Caretaker",
+      "short_name": "Caretaker",
+      "url": "/caregivers",
+      "icons": [{ "src": "/img/ico/caregiver.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Blood Donor",
+      "short_name": "Blood",
+      "url": "/blood-finder",
+      "icons": [{ "src": "/img/ico/blood.png", "sizes": "96x96" }]
     }
   ]
 }

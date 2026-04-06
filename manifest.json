@@ -57,7 +57,7 @@
     {
       "name": "Today's Task",
       "url": "/my-vpet",
-      "icons": [{ "src": "/img/ico/virtual-pet.png", "sizes": "96x96" }]
+      "icons": [{ "src": "/img/logo.png", "sizes": "96x96" }]
     },
     {
       "name": "Doctors",

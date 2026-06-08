@@ -37,19 +37,19 @@
 
   "icons": [
     {
-      "src": "/icons/icon-192.png",
+      "src": "/img/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icons/icon-512.png",
+      "src": "/img/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icons/icon-maskable-512.png",
+      "src": "/img/icon-maskable-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
@@ -58,28 +58,28 @@
 
   "screenshots": [
     {
-      "src": "/img/shots/home-mobile.png",
+      "src": "/img/shots/shot1.png",
       "sizes": "1080x1920",
       "type": "image/png",
       "form_factor": "narrow",
       "label": "Find Verified Doctors"
     },
     {
-      "src": "/img/shots/booking-mobile.png",
+      "src": "/img/shots/shot2.png",
       "sizes": "1080x1920",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "Book Appointments Online"
+      "label": "Find Hospitals Near You"
     },
     {
-      "src": "/img/shots/labs-mobile.png",
+      "src": "/img/shots/shot3.png",
       "sizes": "1080x1920",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "Book Lab Tests"
+      "label": "Find Doctors  Near You"
     },
     {
-      "src": "/img/shots/desktop-home.png",
+      "src": "/img/shots/shot7.png",
       "sizes": "1280x720",
       "type": "image/png",
       "form_factor": "wide",

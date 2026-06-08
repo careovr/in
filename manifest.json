@@ -1,6 +1,6 @@
 {
   "id": "/",
-  "name": "Careovr - Trusted Healthcare Platform",
+  "name": "Careovr",
   "short_name": "Careovr",
 
   "description": "Find verified doctors, hospitals and labs, book appointments online, access instant doctor consultations, compare healthcare options and navigate healthcare with confidence through Careovr.",
@@ -108,7 +108,7 @@
       "url": "/pathlabs",
       "icons": [
         {
-          "src": "/img/ico/lab.png",
+          "src": "/img/ico/microscope.png",
           "sizes": "96x96"
         }
       ]
@@ -118,10 +118,10 @@
       "name": "Instant Doctor",
       "short_name": "Consult",
       "description": "Connect with a doctor quickly",
-      "url": "/instant-doctor",
+      "url": "/",
       "icons": [
         {
-          "src": "/img/ico/doctor.png",
+          "src": "/img/ico/video-call.png",
           "sizes": "96x96"
         }
       ]
@@ -134,7 +134,7 @@
       "url": "/blood-finder",
       "icons": [
         {
-          "src": "/img/ico/blood.png",
+          "src": "/img/ico/donors.png",
           "sizes": "96x96"
         }
       ]

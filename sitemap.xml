@@ -48,21 +48,6 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://careovr.netlify.app/caregivers</loc>
-  <lastmod>2024-09-30T09:35:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://careovr.netlify.app/caregivers/laxmi_kumari_23</loc>
-  <lastmod>2024-09-30T09:35:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://careovr.netlify.app/refer</loc>
-  <lastmod>2024-09-30T09:35:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://careovr.netlify.app/hospitals</loc>
   <lastmod>2024-09-30T09:35:19+00:00</lastmod>
   <priority>0.80</priority>
@@ -139,11 +124,6 @@
 </url>
 <url>
   <loc>https://careovr.netlify.app/doctor-signup</loc>
-  <lastmod>2024-09-30T09:35:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://careovr.netlify.app/caregiver-signup</loc>
   <lastmod>2024-09-30T09:35:19+00:00</lastmod>
   <priority>0.64</priority>
 </url>

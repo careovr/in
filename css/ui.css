@@ -54,6 +54,7 @@ margin-top: 5px;
 .banner-slide .main-banner {
     width: 100%;
     height: auto;
+    max-height: 450px;
     border-radius: 0px 0px 20px 20px;
 
 }
@@ -71,8 +72,8 @@ margin-top: 5px;
     transform: translateY(-50%);
 }
 .banner-controls button {
-    background: rgba(0,0,0,0.5);
-    color: white;
+    background: rgba(0, 0, 0, 0.13);
+    color: rgba(255, 255, 255, 0.521);
     border: none;
     cursor: pointer;
 }
